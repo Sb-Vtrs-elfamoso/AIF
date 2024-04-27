@@ -1,7 +1,7 @@
 # Movie poster Recommender System
 
 ## Requirements :
-- Docker engine is installed on your computer. If it not the case, please follow these [instructions](https://docs.docker.com/engine/install/)
+- Docker engine is installed on your computer. If it is not the case, please follow these [instructions](https://docs.docker.com/engine/install/)
 - have a stable internet connection (for packages installation)
 
 ## User guide :
