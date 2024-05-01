@@ -15,4 +15,4 @@ We used two models trained on [Imagenette](https://s3.amazonaws.com/fast-ai-imag
 2. open `XAI_train.ipynb` : there is the training part of our two models
 3. open `XAI_explanation.ipynb` : there is the implementation of explanation methods (**RISE**, **LIME**, **GradCAM**). We completely implemented RISE method following RISE paper instructions (see `rise.py`) and reused existing LIME and GradCAM functions.
 4. open `XAI_evaluation.ipynb` : there is the evaluation of explanation methods using insertion and deletion metrics we implemented following RISE paper instructions (see `metrics.py`)
-5. if you want to run the code, use the environment provided in `environment.yml`. To install this conda env, run `onda env create -f environment.yml`
+5. if you want to run the code, use the environment provided in `environment.yml`. To install this conda env, run `conda env create -f environment.yml`
