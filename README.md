@@ -6,6 +6,6 @@ Project realized by : **Yessine Jmal**, **Ismail Kallel**, **Talel Taieb**, **SÃ
 
 This repository contains 2 web applications :
 - **recommender_system** : provides you the 5 most similar movie posters to an image
-- **NLP**
+- **NLP** : provides you the 5 most similar movie corresponding to your text description
 
 This repository also contains a project about AI explainability : **XAI** containing an implemenetation of RISE and a practical application of explication and evaluation.
