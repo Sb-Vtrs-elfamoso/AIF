@@ -2,3 +2,8 @@
 XAI/imagenette2.tgz
 XAI/example_class_dictionary.pkl
 XAI/explanation_dictionary.pkl
+recommender_system_NLP/data_NLP
+recommender_system_NLP/out.csv
+recommender_system_NLP/out1.csv
+recommender_system_NLP/train_embeddings.csv
+
