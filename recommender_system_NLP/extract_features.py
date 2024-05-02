@@ -5,7 +5,8 @@ from nltk.stem import SnowballStemmer
 import nltk
 from nltk.corpus import stopwords
 import re
-
+import pickle
+from tokenizer_utils import StemTokenizer
 
 nltk.download('punkt')
 nltk.download('stopwords')
@@ -27,13 +28,7 @@ clean_df = df.dropna(subset=["overview"])
 stop_words = set(stopwords.words('english'))
 
 # Interface lemma tokenizer from nltk with sklearn
-class StemTokenizer:
-    ignore_tokens = [',', '.', ';', ':', '"', '``', "''", "'"]
-    def __init__(self):
-        self.stemmer = SnowballStemmer('english')
-    def __call__(self, doc):
-        doc = doc.lower()
-        return [self.stemmer.stem(t) for t in word_tokenize(re.sub("[^a-z' ]", "", doc)) if t not in self.ignore_tokens]
+
 
 tokenizer=StemTokenizer()
 token_stop = tokenizer(' '.join(stop_words))
@@ -53,3 +48,7 @@ print(type(clean_df['tfidf_features']))
 clean_df.to_csv('out1.csv')  
 print(clean_df)
 df = pd.read_csv('out1.csv',low_memory=False)
+with open('tokenizer.pkl','wb') as f:
+    pickle.dump(tokenizer,f)
+with open('vectorizer.pkl','wb') as f:
+    pickle.dump(vectorizer,f)

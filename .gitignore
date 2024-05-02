@@ -6,4 +6,8 @@ recommender_system_NLP/data_NLP
 recommender_system_NLP/out.csv
 recommender_system_NLP/out1.csv
 recommender_system_NLP/train_embeddings.csv
-
+recommender_system_NLP/glove.6B.50d.txt
+recommender_system_NLP/glove.6B.100d.txt
+recommender_system_NLP/glove.6B.200d.txt
+recommender_system_NLP/glove.6B.300d.txt
+recommender_system_NLP/glove.6B.zip

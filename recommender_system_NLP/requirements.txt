@@ -2,3 +2,11 @@ numpy==1.22.3
 annoy==1.16.3
 streamlit
 pandas
+nltk
+scikit-learn
+
+
+gensim
+numpy
+tqdm
+
