@@ -4,7 +4,7 @@ Project realized for [AI Frameworks](https://davidbert.github.io/MODIA_AIF/index
 
 Project realized by : **Yessine Jmal**, **Ismail Kallel**, **Talel Taieb**, **Sébastien Vouters**
 
-This repository contains 2 web applications :
+This repository contains 2 web applications and a notebook :
 - **recommender_system** : provides you the 5 most similar movie posters to an image
 - **NLP** : provides you the 5 most similar movie (according to description) corresponding to the movie title you provided
-This repository also contains a project about AI explainability : **XAI** containing an implemenetation of RISE and a practical application of explication and evaluation.
+- **XAI** : a project about AI explainability containing an implemenetation of RISE and a practical application of explication and evaluation.
