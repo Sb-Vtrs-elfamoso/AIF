@@ -9,7 +9,7 @@
 1. download or clone this respository
 2. go inside the folder **recomender_system_NLP** with a terminal
 3. unzip train_embeddings.csv file containing the TF-IDF and Gensim embeddings.
-4. downlowd Gensim pretrained model and unzip it in this folder 
+4. download Gensim pretrained model and unzip it in this folder 
 5. run : `docker build -t streamlit-app .` and then run 'docker run -p 8501:8501 streamlit-app'
 6. in your brower open the [web-app](http://localhost:8501/)
 7. you can now choose the embedding technique, enter any movie_name and submit it, the system will recommend you 5 similar movie names
